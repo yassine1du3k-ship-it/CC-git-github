@@ -1,8 +1,8 @@
 /* Theme values used by the page. */
 :root {
-    --page-background: #f4f1ea;
-    --page-text: #17223b;
-    --accent: #bc743f;
+    --page-background: #17223b;
+    --page-text: #ffffff    ;
+    --accent: #a4856e;
 }
 * { box-sizing: border-box; }
 body { margin: 0; font-family: Arial, sans-serif; background: var(--page-background); color: var(--page-text); line-height: 1.6; }
@@ -11,7 +11,7 @@ header { border-bottom: 2px solid var(--accent); }
 h1 { line-height: 1.15; font-size: clamp(2rem, 5vw, 3.2rem); }
 .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; }
 .card { padding: 24px; margin: 20px 0; border: 1px solid var(--accent); border-radius: 12px; }
-button { margin: 4px; padding: 12px 18px; background: #bc743f; color: #17223b; border: 0; border-radius: 8px; cursor: pointer; font-size: 1rem; }
+button { margin: 4px; padding: 12px 18px; background: #af9b8c; color: #17223b; border: 0; border-radius: 8px; cursor: pointer; font-size: 1rem; }
 button:focus-visible { outline: 3px solid #168482; outline-offset: 3px; }
 .receipt { color: #17223b; font-weight: bold; padding: 12px 0; }
 footer { font-size: 0.9rem; }
